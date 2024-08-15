@@ -1,14 +1,16 @@
 #include <stdio.h>
 
+#define R = 10
+
 int main(){
   int i=0;
-  while(i<9){
+  while(i<R){
     if(i%2==1){
       printf("Hello World!\n");
     }
     i++;
   }
 
-  //test de modificación
+  //test de modificacion
   return 0;
 }
